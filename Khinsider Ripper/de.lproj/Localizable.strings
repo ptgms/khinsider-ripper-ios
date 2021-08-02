@@ -1,0 +1,54 @@
+/* 
+  Localizable.strings
+  Khinsider Ripper
+
+  Created by ptgms on 01.04.21.
+  
+*/
+
+// Warning popups
+"warning" = "Warnung!";
+"ok" = "Okay";
+
+// General App Strings
+"fav" = "Favoriten";
+"av_formats" = "Verfügbare Formate: ";
+"remove_fav" = "Aus Favoriten entfernen";
+"addfav" = "Zu Favoriten hinzufügen";
+"open_browser" = "Track im Browser öffnen";
+"album_browser" = "Album im Browser öffnen";
+"add_photos" = "Zu Fotos hinzufügen";
+"add_photos_cover" = "Füge Cover zu Fotos hinzu";
+"add_photos_sheet" = "Füge Abteil zu Fotos hinzu";
+"share" = "Teilen";
+"share_or_download" = "Teilen/Herunterladen";
+"share_link" = "Teile Link zum Song";
+"share_album" = "Teile Link zum Album";
+"share_file" = "Teile/Lade den Song als Datei";
+"done" = "Fertig";
+"options" = "Optionen";
+"nothingplay" = "Nichts am Spielen!";
+"downloading" = "Lade herunter";
+"loading" = "Lade";
+"edit" = "Bearbeiten";
+"rmv" = "Entfernen";
+"contains" = "Beinhaltet ";
+"tracks" = " Tracks";
+"view_all" = "Alle %s Tracks im Album ansehen";
+"searchfor" = "Nach OSTs suchen";
+
+"error" = "Fehler!";
+"fav_unsync" = "Die Favoritenliste war nicht Synchronisiert! Dies kann aufgrund eines Fehlers in der App auftreten! Deine Favoriten wurden als Resultat zurückgesetzt!";
+
+"err_no_results" = "Keine Suchresultate gefunden!";
+"err_no_results_det" = "Versuche nach etwas anderem zu suchen.";
+
+// Info popups
+"question" = "Frage";
+"format_ask" = "Als welches format möchtest du die Datei speichern?";
+"gathering" = "Lade Download-Links";
+"download_all" = "Alle Tracks herunterladen";
+"checkout" = "Schau dir mal das Album auf Khinsider an!\n";
+"download_track" = "Track herunterladen";
+"trackdone" = "Track has been saved into the Apps document Fodler! Open the File app to look at it!";
+"cancel" = "Abbrechen";

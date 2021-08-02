@@ -1,0 +1,96 @@
+
+/* Class = "UITableViewController"; title = "Track List"; ObjectID = "1Ff-rI-Z3t"; */
+"1Ff-rI-Z3t.title" = "Track Liste";
+
+/* Class = "UINavigationItem"; title = "Favorites"; ObjectID = "1iD-ec-9WZ"; */
+"1iD-ec-9WZ.title" = "Favoriten";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "54P-Ng-RZw"; */
+"54P-Ng-RZw.text" = "00:00";
+
+/* Class = "UILabel"; text = "View Khinsider Page"; ObjectID = "6ki-JA-lJR"; */
+"6ki-JA-lJR.text" = "Zeige auf Khinsider-Seite";
+
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "7NL-wX-Sb4"; */
+"7NL-wX-Sb4.normalTitle" = "Bearbeiten";
+
+/* Class = "UILabel"; text = "Add to Favorites"; ObjectID = "9XS-x2-UU0"; */
+"9XS-x2-UU0.text" = "Zu Favoriten hinzufügen";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "CT1-zo-EFS"; */
+"CT1-zo-EFS.text" = "Titel";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "E4y-zq-7Uk"; */
+"E4y-zq-7Uk.text" = "Untertitel";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "F0w-LB-FWC"; */
+"F0w-LB-FWC.text" = "Untertitel";
+
+/* Class = "UILabel"; text = "Contains XY Tracks"; ObjectID = "JF6-nR-EGR"; */
+"JF6-nR-EGR.text" = "Contains XY Tracks";
+
+/* Class = "UITableViewController"; title = "Favorites"; ObjectID = "KWb-kK-9JA"; */
+"KWb-kK-9JA.title" = "Favoriten";
+
+/* Class = "UILabel"; text = "Available Formats: MP3"; ObjectID = "R49-fl-4E2"; */
+"R49-fl-4E2.text" = "Available Formats: MP3";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "RbG-kj-Ud1"; */
+"RbG-kj-Ud1.text" = "00:00";
+
+/* Class = "UILabel"; text = "Download all Tracks"; ObjectID = "SQF-rN-dbi"; */
+"SQF-rN-dbi.text" = "Alle Tracks herunterladen";
+
+/* Class = "UILabel"; text = "Search for a Soundtrack using the Sidebar!"; ObjectID = "W31-1B-Z2M"; */
+"W31-1B-Z2M.text" = "Suche nach einem Track mit der Seitenleiste!";
+
+/* Class = "UILabel"; text = "Album Name"; ObjectID = "WEy-JT-srf"; */
+"WEy-JT-srf.text" = "Album Name";
+
+/* Class = "UINavigationItem"; title = "Khinsider Ripper"; ObjectID = "Xnl-IE-bgj"; */
+"Xnl-IE-bgj.title" = "Khinsider Ripper";
+
+/* Class = "UITableViewSection"; headerTitle = "Album Details"; ObjectID = "aJI-bv-qDF"; */
+"aJI-bv-qDF.headerTitle" = "Album Details";
+
+/* Class = "UITableViewController"; title = "Album Details"; ObjectID = "d29-sE-iId"; */
+"d29-sE-iId.title" = "Album Details";
+
+/* Class = "UILabel"; text = "Downloading 0/0"; ObjectID = "jvc-3V-7xu"; */
+"jvc-3V-7xu.text" = "Lade herunter 0/0";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "kqI-ju-uu5"; */
+"kqI-ju-uu5.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "m0n-s5-FbP"; */
+"m0n-s5-FbP.normalTitle" = "Schließen";
+
+/* Class = "UILabel"; text = "PLACEHOLDER"; ObjectID = "o0q-du-cTW"; */
+"o0q-du-cTW.text" = "PLACEHOLDER";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "qcM-Ge-GbN"; */
+"qcM-Ge-GbN.text" = "Title";
+
+/* Class = "UILabel"; text = "Please don't switch this App to the background while downloading, to cancel the download, dismiss this modal!"; ObjectID = "qhs-CM-vWE"; */
+"qhs-CM-vWE.text" = "Bitte wechsel die App nicht in den Hintergrund wärend dem herunterladen, zum Abbrechen das Fenster schließen!";
+
+/* Class = "UIViewController"; title = "Downloading"; ObjectID = "rle-9D-rag"; */
+"rle-9D-rag.title" = "Lade herunter";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "sE6-ow-Gv5"; */
+"sE6-ow-Gv5.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Downloading..."; ObjectID = "tCQ-QZ-xdp"; */
+"tCQ-QZ-xdp.text" = "Lade herunter...";
+
+/* Class = "UILabel"; text = "View all XYZ Tracks in the Album"; ObjectID = "uDb-DE-oEO"; */
+"uDb-DE-oEO.text" = "View all XYZ Tracks in the Album";
+
+/* Class = "UILabel"; text = "View Tracks"; ObjectID = "v72-Kw-02K"; */
+"v72-Kw-02K.text" = "Tracks anschauen";
+
+/* Class = "UITableViewSection"; headerTitle = "Options"; ObjectID = "vZU-rr-BBQ"; */
+"vZU-rr-BBQ.headerTitle" = "Optionen";
+
+/* Class = "UITableViewSection"; headerTitle = "Tracks"; ObjectID = "vsz-DY-Xm5"; */
+"vsz-DY-Xm5.headerTitle" = "Tracks";

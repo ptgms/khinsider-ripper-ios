@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "MarqueeLabel",
+        "repositoryURL": "https://github.com/cbpowell/MarqueeLabel.git",
+        "state": {
+          "branch": "master",
+          "revision": "112d8b0cbfef2b7548ecdaa0e6b00bf98692817b",
+          "version": null
+        }
+      },
+      {
+        "package": "MBProgressHUD",
+        "repositoryURL": "https://github.com/jdg/MBProgressHUD.git",
+        "state": {
+          "branch": "master",
+          "revision": "c843e4c86d320a11552898646effa8000042ab16",
+          "version": null
+        }
+      },
+      {
+        "package": "SwiftSoup",
+        "repositoryURL": "https://github.com/scinfu/SwiftSoup.git",
+        "state": {
+          "branch": "master",
+          "revision": "05eec922678a28b308c55c745dd1da88de0faa9f",
+          "version": null
+        }
+      },
+      {
+        "package": "UIImageColors",
+        "repositoryURL": "https://github.com/jathu/UIImageColors",
+        "state": {
+          "branch": "master",
+          "revision": "f064be8ee0b03158e61135e6c384aee18d7a5414",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
