@@ -8,7 +8,11 @@
 
 // Warning popups
 "warning" = "Warning!";
+"cachesize" = "Your User-Cache size is over the recommended amount (%s/50 MB). Do you wish to clear your cache?";
 "ok" = "Okay";
+"yes" = "Yes";
+"remindlater" = "Remind me later";
+"dontremind" = "Don't remind me again";
 
 // General App Strings
 "fav" = "Favorite";

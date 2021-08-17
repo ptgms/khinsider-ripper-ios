@@ -8,7 +8,11 @@
 
 // Warning popups
 "warning" = "Warnung!";
+"cachesize" = "Dein User-Cache ist über der empfohlenden Mänge (%s/50 MB). Möchtest du deinen Cache leeren?";
 "ok" = "Okay";
+"yes" = "Ja";
+"remindlater" = "Erinner mich später";
+"dontremind" = "Erinner mich nicht mehr";
 
 // General App Strings
 "fav" = "Favoriten";

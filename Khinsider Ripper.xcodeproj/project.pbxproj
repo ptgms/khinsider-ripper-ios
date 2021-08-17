@@ -13,6 +13,7 @@
 		5251DB802617972E00DB78CD /* BatchDownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251DB7F2617972E00DB78CD /* BatchDownloadViewController.swift */; };
 		5251DB822617A70500DB78CD /* MainSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251DB812617A70500DB78CD /* MainSplitViewController.swift */; };
 		52607BCA26B816B20011ACA9 /* TapToSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52607BC926B816B20011ACA9 /* TapToSearchView.swift */; };
+		5289FF2126C05ABA005FC668 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5289FF2026C05ABA005FC668 /* Tools.swift */; };
 		529DE5C226188675005327B6 /* FavoriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529DE5C126188675005327B6 /* FavoriteTableViewController.swift */; };
 		529DE5C3261899B9005327B6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 529DE5C5261899B9005327B6 /* Localizable.strings */; };
 		52AF66D42695B89000202690 /* NoResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF66D32695B89000202690 /* NoResultsView.swift */; };
@@ -39,6 +40,7 @@
 		5251DB7F2617972E00DB78CD /* BatchDownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchDownloadViewController.swift; sourceTree = "<group>"; };
 		5251DB812617A70500DB78CD /* MainSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSplitViewController.swift; sourceTree = "<group>"; };
 		52607BC926B816B20011ACA9 /* TapToSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapToSearchView.swift; sourceTree = "<group>"; };
+		5289FF2026C05ABA005FC668 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		529DE5C026187CE3005327B6 /* Khinsider Ripper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Khinsider Ripper.entitlements"; sourceTree = "<group>"; };
 		529DE5C126188675005327B6 /* FavoriteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewController.swift; sourceTree = "<group>"; };
 		529DE5C4261899B9005327B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -78,9 +80,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5289FF1F26C05AA0005FC668 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				5289FF2026C05ABA005FC668 /* Tools.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		52AF66CD2695B74300202690 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5289FF1F26C05AA0005FC668 /* Tools */,
 				52AF66D02695B77800202690 /* Storyboard */,
 				52AF66CF2695B75300202690 /* XIB */,
 				52AF66CE2695B74900202690 /* Controllers */,
@@ -241,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5289FF2126C05ABA005FC668 /* Tools.swift in Sources */,
 				5251DB822617A70500DB78CD /* MainSplitViewController.swift in Sources */,
 				52607BCA26B816B20011ACA9 /* TapToSearchView.swift in Sources */,
 				52CC252626163B9500D781AF /* ViewController.swift in Sources */,
@@ -452,7 +464,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ptgms.Khinsider-Ripper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = NO;
@@ -480,7 +492,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ptgms.Khinsider-Ripper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = NO;

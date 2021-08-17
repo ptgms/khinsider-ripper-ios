@@ -38,7 +38,8 @@ class MusicPlayerView: UIViewController, UIContextMenuInteractionDelegate {
     var favText = "Add to Favorites"
 
     var timeObserver: (Any)?
-
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -326,6 +327,7 @@ class MusicPlayerView: UIViewController, UIContextMenuInteractionDelegate {
             AVAudioSession.sharedInstance()
             player = AVPlayer(url: URL.init(string: url)!)
             player?.play()
+            try! AVAudioSession.sharedInstance().setCategory(.playback)
             NotificationCenter.default.addObserver(self,
                                                    selector: #selector(playerItemDidReachEnd),
                                                    name: NSNotification.Name.AVPlayerItemDidPlayToEndTime,

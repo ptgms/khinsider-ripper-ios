@@ -77,8 +77,69 @@ class SearchTableViewController: UITableViewController, UITableViewDragDelegate 
 
         self.navigationItem.searchController = searchController
         self.definesPresentationContext = true
-    }
+        
+        let documentsDirPath = NSSearchPathForDirectoriesInDomains(.cachesDirectory, .userDomainMask, true)[0]
+        
+        let folderSize = sizeOfFolder(documentsDirPath) ?? 0
+        
+        if (folderSize >= Int64(52428800) && !defaults.bool(forKey: "hideCache")) {
+            let alert = UIAlertController(title: "warning".localized, message: "cachesize".localized.format(formatWith: ByteCountFormatter.string(fromByteCount: folderSize, countStyle: ByteCountFormatter.CountStyle.file)
+), preferredStyle: .alert)
 
+            alert.addAction(UIAlertAction(title: "yes".localized, style: .default, handler: { action in
+                self.clearCache()
+            }))
+            alert.addAction(UIAlertAction(title: "remindlater".localized, style: .default, handler: nil))
+            alert.addAction(UIAlertAction(title: "dontremind".localized, style: .cancel, handler: { action in
+                self.defaults.set(true, forKey: "hideCache")
+            }))
+
+            self.present(alert, animated: true)
+        }
+    }
+    
+    func clearCache(){
+        let cacheURL =  FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask).first!
+        let fileManager = FileManager.default
+        do {
+            // Get the directory contents urls (including subfolders urls)
+            let directoryContents = try FileManager.default.contentsOfDirectory( at: cacheURL, includingPropertiesForKeys: nil, options: [])
+            for file in directoryContents {
+                do {
+                    try fileManager.removeItem(at: file)
+                }
+                catch let error as NSError {
+                    debugPrint("Ooops! Something went wrong: \(error)")
+                }
+
+            }
+        } catch let error as NSError {
+            print(error.localizedDescription)
+        }
+    }
+    
+    func sizeOfFolder(_ folderPath: String) -> Int64? {
+        do {
+            let contents = try FileManager.default.contentsOfDirectory(atPath: folderPath)
+            var folderSize: Int64 = 0
+            for content in contents {
+                do {
+                    let fullContentPath = folderPath + "/" + content
+                    let fileAttributes = try FileManager.default.attributesOfItem(atPath: fullContentPath)
+                    folderSize += fileAttributes[FileAttributeKey.size] as? Int64 ?? 0
+                } catch _ {
+                    continue
+                }
+            }
+            
+            return folderSize
+
+        } catch let error {
+            print(error.localizedDescription)
+            return nil
+        }
+    }
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1

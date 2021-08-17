@@ -154,7 +154,7 @@
                                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8DS-F2-yvo">
                                                                             <rect key="frame" x="0.0" y="0.0" width="273.5" height="75"/>
                                                                             <subviews>
-                                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jpX-tX-Pl3">
+                                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jpX-tX-Pl3">
                                                                                     <rect key="frame" x="116.5" y="17.5" width="40" height="40"/>
                                                                                     <constraints>
                                                                                         <constraint firstAttribute="width" constant="40" id="IZY-gy-36n"/>
@@ -174,7 +174,7 @@
                                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="48r-5Y-OwE">
                                                                             <rect key="frame" x="273.5" y="0.0" width="273" height="75"/>
                                                                             <subviews>
-                                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W0n-Xi-tdW">
+                                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W0n-Xi-tdW">
                                                                                     <rect key="frame" x="111.5" y="12.5" width="50" height="50"/>
                                                                                     <constraints>
                                                                                         <constraint firstAttribute="width" constant="50" id="AsH-as-sga"/>
@@ -194,7 +194,7 @@
                                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mtJ-pl-Nmk">
                                                                             <rect key="frame" x="546.5" y="0.0" width="273.5" height="75"/>
                                                                             <subviews>
-                                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4n3-fJ-0FN">
+                                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4n3-fJ-0FN">
                                                                                     <rect key="frame" x="117" y="17.5" width="40" height="40"/>
                                                                                     <constraints>
                                                                                         <constraint firstAttribute="width" constant="40" id="9ed-VB-1xR"/>
@@ -282,7 +282,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="820" height="40"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0n-s5-FbP">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m0n-s5-FbP">
                                             <rect key="frame" x="10" y="10" width="24" height="24"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="24" id="6Ax-Ha-ZAd"/>
@@ -772,7 +772,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Khinsider Ripper" id="Xnl-IE-bgj">
                         <barButtonItem key="rightBarButtonItem" id="FUf-t6-Hnu">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wST-X7-2mQ">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" pointerInteraction="YES" id="wST-X7-2mQ">
                                 <rect key="frame" x="389" y="14" width="15" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="star.fill"/>
